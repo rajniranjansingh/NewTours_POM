@@ -1,0 +1,8 @@
+com/crm/qa/pages/CruisesPage.class
+com/crm/qa/base/TestBase.class
+com/crm/qa/pages/HotelsPage.class
+com/crm/qa/pages/LoginPage.class
+com/qa/ExtentReportListener/ExtentReporterNG.class
+com/crm/qa/pages/RegistrationPage.class
+com/crm/qa/pages/HomePage.class
+com/crm/qa/util/TestUtil.class

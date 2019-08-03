@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewTours Demout Site]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test Cases for POM(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="SignOffButtonTest"/>
+          <include name="ClickOnCruisesPageButtonTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="HomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.RegistrationPageTest">
+        <methods>
+          <include name="ContactInformationTagTest"/>
+          <include name="FillRegistrationFormTest"/>
+          <include name="RegistrationPage_TitleTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.RegistrationPageTest -->
+      <class name="com.crm.qa.testcases.CruisesPageTest">
+        <methods>
+          <include name="verifyCruiseItineraryTest"/>
+          <include name="verifyCruisePageTitleTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CruisesPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="LoginPageImageTest"/>
+          <include name="LoginTest"/>
+          <include name="LoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test Cases for POM(failed) -->
+</suite> <!-- Failed suite [NewTours Demout Site] -->
